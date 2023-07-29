@@ -1,0 +1,48 @@
+ext {
+    minSdkVersion = 19
+    targetSdkVersion = 33
+
+    lifeVer = "2.6.1"
+    glideVersion = "4.15.1"
+
+    compatVersion = "1.6.1"
+    materialVersion = "1.9.0"
+    lifecycle_version = "2.6.1"
+    kotlin_version = "1.8.21"
+    roomVersion = "2.5.1"
+
+    crashlyticsVersion = "18.3.7"
+    analyticsVersion = "21.2.2"
+
+    glideVersion = "4.15.1"
+    firebaseDatabaseVersion = "20.2.1"
+    firebaseAdsVersion ="22.0.0"
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20"
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.5'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
