@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_subject">@string/app_name</string>
+    <string name="share_to">Поделиться</string>
+    <string name="share_message">Вы можете скачать приложение Видеоуроки Start Android для Android в</string>
+</resources>

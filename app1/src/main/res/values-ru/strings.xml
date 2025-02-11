@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Мекка и Медина трансляция</string>
+
+
+    <string name="share_to">Поделиться</string>
+
+    <string name="share_subject">@string/app_name</string>
+    <string name="share_message">Cмотри Мекка и Медина трансляция 24/7 Online для Android</string>
+    <string name="share_data">Отправка данных</string>
+    <string name="pdf_viewer_not_installed">PDF Viewer Не установлен</string>
+    <string name="read_quran">Read Quran</string>
+    <string name="confirm_action">Для просмотра трансляции необходимо выбрать ваш Google account. Пожалуйста подтвердите действие!</string>
+
+<!--    <string name="share_subject">Рекомендую иньересные видео!</string>-->
+<!--    <string name="share_message">Вы можете скачать приложение Видеоуроки Start Android для Android в</string>-->
+
+
+    <string name="title_sound_settings">Настройки звука</string>
+    <string name="text_sound">Звук</string>
+    <string name="text_vibration">Вибрация</string>
+    <string name="text_sounds">Нажмите «Звуки»:</string>
+    <string name="sound_signal">Звуковой сигнал</string>
+    <string name="tap">Кран</string>
+    <string name="one_time">Один раз</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранять</string>
+
+</resources>

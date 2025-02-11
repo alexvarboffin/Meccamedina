@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "436342355133",
+    "project_id": "realmakkahmadinalive",
+    "storage_bucket": "realmakkahmadinalive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436342355133:android:ecb1a1f039a8fff30d73d4",
+        "android_client_info": {
+          "package_name": "ai.meccamedinatv.mekkalive.online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436342355133-ap4nv64ic6ul2i60jf1pdg371c88dkco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.meccamedinatv.mekkalive.online",
+            "certificate_hash": "0ca5cf96fe6f5301c9b5d5c144644b846e8b6175"
+          }
+        },
+        {
+          "client_id": "436342355133-1jdb0g940snuu0avo5babuv9l79pbrhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0KJ9yEKpliJU15aczPjAZLhLwselfj4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436342355133-1jdb0g940snuu0avo5babuv9l79pbrhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

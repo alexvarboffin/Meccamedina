@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="signed_out" tools:ignore="MissingTranslation">Signed Out</string>
+
+    <string name="share_data">Share File</string>
+    <string name="pdf_viewer_not_installed">PDF Viewer Not Installed</string>
+    <string name="read_quran">Read Quran</string>
+
+    <string name="title_tasbeeh">Tasbeeh</string>
+    <string name="action_tap_to_start">Tap here to start</string>
+    <string name="abc_null">0</string>
+    <string name="confirm_action">To watch the broadcast, you must select your Google account. Please confirm the action!</string>
+    <string name="tasbeeh_reset">Reset</string>
+    <string name="tasbeeh_minus">Minus</string>
+
+
+    <string name="title_sound_settings">Sound Settings</string>
+    <string name="text_sound">Sound</string>
+    <string name="text_vibration">Vibration</string>
+    <string name="text_sounds">Press &quot;Sounds&quot;:</string>
+    <string name="sound_signal">Sound Signal</string>
+    <string name="tap">Tap</string>
+    <string name="one_time">Once</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="action_open_on_youtube">Open in YouTube app</string>
+
+    <string name="action_retry">Повторить</string>
+    <string name="response_error">Connection Time Out or Server Under Maintenance</string>
+    <string name="no_internet_connection">Проверьте интернет-соединение</string>
+    <string name="no_result">Видео отсутствует</string>
+</resources>

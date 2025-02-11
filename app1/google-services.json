@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164941103268",
+    "firebase_url": "https://mekka-70cf9.firebaseio.com",
+    "project_id": "mekka-70cf9",
+    "storage_bucket": "mekka-70cf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164941103268:android:d0c6f6dd4bc36d0766e631",
+        "android_client_info": {
+          "package_name": "com.walhalla.meccamedina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164941103268-ishdrunrmpduop5i1q54om12fvut4dvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.meccamedina",
+            "certificate_hash": "ff1823e8b005f25d454bb080d3f19e9951c71e48"
+          }
+        },
+        {
+          "client_id": "164941103268-troerj2506ndb55a560j22pd61c984m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-s6Fm1Enu5DYUA-t6VVRCFTaoam7_QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164941103268-troerj2506ndb55a560j22pd61c984m3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

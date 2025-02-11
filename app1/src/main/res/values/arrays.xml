@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string-array name="video_type">-->
+<!--        <item>-1</item>-->
+<!--        <item>-1</item>-->
+<!--        <item>-3</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="channel_names">lll</string-array>-->
+
+    <string-array name="channel_ids">
+<!--                <item>UCraPI8sg-eiNzUrurxhKeEQ - OLD REMOVED</item>-->
+        <item>UCqDUJp6Z4wyFkDJGqd0EP4Q</item>
+<!--        <item>UCVeIZ3mYEkQzjKVowqgeGTA</item>-->
+    </string-array>
+
+<!--    <string-array name="channel_ids">-->
+<!--        <item>UChLAysMPwg9eEaJIXzv0hxg</item>-->
+<!--    </string-array>-->
+</resources>

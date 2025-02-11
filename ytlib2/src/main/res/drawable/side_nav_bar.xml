@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="#000b2e"
+                android:endColor="#6b64f4"
+                android:startColor="#00183d"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item
+        android:bottom="20dp"
+        android:drawable="@drawable/ic_launcher_web"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="20dp" />
+</layer-list>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="response_error">Connection Time Out or Server Under Maintenance</string>
+    <string name="no_internet_connection">Проверьте интернет-соединение</string>
+    <string name="no_result">Видео отсутствует</string>
+</resources>

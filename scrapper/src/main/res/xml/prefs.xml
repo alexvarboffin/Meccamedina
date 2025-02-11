@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="notifications"
+        app:title="Enable message notifications" />
+
+    <Preference
+        app:key="feedback"
+        app:summary="Report technical issues or suggest new features"
+        app:title="Send feedback" />
+
+    <DropDownPreference
+        android:key="dropdown"
+        android:title="@string/title_users_dropdown_preference"
+        app:useSimpleSummaryProvider="true" />
+
+    <DropDownPreference
+        android:key="boardName"
+        android:title="@string/title_boardName_dropdown_preference"
+        app:useSimpleSummaryProvider="true" />
+
+    <DropDownPreference
+        android:key="project"
+        android:title="@string/title_project_dropdown_preference"
+        app:useSimpleSummaryProvider="true" />
+
+
+    <SwitchPreferenceCompat
+        app:key="@string/pref_youtube"
+        app:title="com.google.android.youtube" />
+
+</androidx.preference.PreferenceScreen>

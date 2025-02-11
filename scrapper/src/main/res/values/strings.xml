@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">scrapper</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="app_id">ca-app-pub-5111357348858303~4598649352</string>
+
+
+
+    <string name="accessibility_service_description">Описание вашей службы доступности</string>
+    <string name="accessibility_telegram_service_description">Telegram Clicker</string>
+
+
+    <string name="packageNamePinterest" translatable="false">com.pinterest,com.instagram.android,com.example.incomingphone,com.google.android.youtube,video.like</string>
+    <string name="title_users_dropdown_preference">Pinterest Users</string>
+    <string name="title_boardName_dropdown_preference">Board Name</string>
+    <string name="title_project_dropdown_preference">Project Name</string>
+    <string name="pref_youtube">youtube</string>
+</resources>

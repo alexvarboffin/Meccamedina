@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tasbeeh_background"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/buttontasbeeh"
+        android:gravity="center"
+        android:text="@string/action_tap_to_start"
+        android:textColor="#00086c"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/container0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:id="@+id/r0"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/round_background">
+
+            <ImageView
+                android:id="@+id/minus"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+
+                android:background="@drawable/round_background_center"
+                android:contentDescription="@string/tasbeeh_minus"
+                android:padding="8dp"
+
+                android:src="@drawable/ic_minus" />
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/save"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_alignTop="@+id/reset"-->
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:layout_alignParentRight="true"-->
+            <!--            android:layout_marginRight="120dp"-->
+            <!--            android:contentDescription="Save"-->
+            <!--            android:src="@drawable/savewt" />-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/r0"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_background">
+
+            <ImageView
+                android:id="@+id/settings"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+
+                android:background="@drawable/round_background_center"
+                android:contentDescription="@string/tasbeeh_minus"
+                android:padding="8dp"
+                android:src="@drawable/ic_settings" />
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/save"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_alignTop="@+id/reset"-->
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:layout_alignParentRight="true"-->
+            <!--            android:layout_marginRight="120dp"-->
+            <!--            android:contentDescription="Save"-->
+            <!--            android:src="@drawable/savewt" />-->
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/round_background">
+
+        <ImageView
+            android:id="@+id/reset"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round_background_center"
+            android:contentDescription="@string/tasbeeh_reset"
+            android:padding="8dp"
+            android:src="@drawable/ic_reset" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/save"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignTop="@+id/reset"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentRight="true"-->
+        <!--            android:layout_marginRight="120dp"-->
+        <!--            android:contentDescription="Save"-->
+        <!--            android:src="@drawable/savewt" />-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/start"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/relativeLayout8"
+        android:layout_toEndOf="@id/container0"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:src="@drawable/tasbeh" />
+
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:id="@+id/pulsator"
+            android:layout_width="326dp"
+            android:layout_height="326dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="0dp"
+            app:pulse_color="#C1E6E8"
+            app:pulse_count="1"
+            app:pulse_duration="1800"
+            app:pulse_interpolator="Linear"
+            app:pulse_repeat="1"
+            app:pulse_startFromScratch="true">
+
+        </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/abc_null"
+            android:textColor="#8FFFFF"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

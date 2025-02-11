@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="key_pref_about"
+        android:summary="@null"
+        android:title="@string/action_about" />
+
+    <PreferenceCategory>
+        <Preference
+            android:icon="@drawable/ic_pref_version"
+            android:key="key_pref_version"
+            android:summary="@null"
+            android:title="@string/pref_version_title" />
+
+        <Preference
+            android:icon="@drawable/ic_pref_dev"
+            android:key="pref_developer_summary"
+            android:summary="@null"
+            android:title="@string/pref_developer_title" />
+
+        <Preference
+            android:icon="@drawable/ic_pref_share"
+            android:key="pref_share_key"
+            android:summary="@string/pref_share_summary"
+            android:title="@string/pref_share_title" />
+
+        <Preference
+            android:icon="@drawable/ic_pref_rate"
+            android:key="pref_rate_review_key"
+            android:summary="@string/pref_rate_review_summary"
+            android:title="@string/pref_rate_review_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:icon="@drawable/ic_pref_privacy"
+            android:key="pref_privacy_policy"
+            android:summary="@string/action_privacy_policy"
+            android:title="@string/action_privacy_policy" />
+    </PreferenceCategory>
+</PreferenceScreen>

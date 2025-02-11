@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_developer_title">Разработчик</string>
+    <string name="pref_rate_review_summary">Оцените приложение и оставьте отзыв в GooglePlay</string>
+
+    <string name="pref_rate_review_title">Поставьте оценку</string>
+<!--    <string name="pref_rate_review_title">Оцените наше приложение</string>-->
+
+
+    <string name="pref_share_summary">Расскажите друзьям об этом приложении</string>
+    <string name="pref_share_title">Поделитесь приложением</string>
+    <string name="pref_version_title">Версия сборки</string>
+</resources>

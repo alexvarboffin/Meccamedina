@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_developer_title">Developer</string>
+    <string name="pref_rate_review_summary">Rate the app and leave feedback on Google Play</string>
+    <string name="pref_rate_review_title">Rate App</string>
+    <string name="pref_share_summary">Tell your friends about this app</string>
+    <string name="pref_share_title">Share the app</string>
+    <string name="pref_version_title">Build version</string>
+</resources>

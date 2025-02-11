@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Мекка і Медіна трансляція</string>
+
+    <string name="share_subject">@string/app_name</string>
+    <string name="share_to">Поділитися</string>
+    <string name="share_message">Дивись Мекка і Медіна трансляція 24/7 Online для Android</string>
+    <string name="confirm_action">Для перегляду трансляції необхідно вибрати обліковий запис Google. Будь ласка, підтвердіть дію!</string>
+
+</resources>

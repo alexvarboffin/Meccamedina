@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto">
+
+    <!--    <uses-sdk tools:overrideLibrary="co.windly.youtubeandroidplayerapi" />-->
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!--    removed-->
+    <!--    <uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:name=".DexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <!-- com.examples.youtubeapidemo.VideoWallDemoActivity -->
+        <!-- com.examples.youtubeapidemo.VideoListDemoActivity -->
+        <!-- com.examples.youtubeapidemo.ActionBarDemoActivity -->
+
+
+        <!-- com.examples.youtubeapidemo.PlayerControlsDemoActivity -->
+        <!--.ui.activity.MainActivity-->
+        <!--        meccamedinamedina.PlayerControlsDemoActivity-->
+        <!--        .activity.SplashActivity
+        -->
+
+        <activity
+            android:name=".activity.splash.SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Launcher"
+            tools:ignore="LockedOrientationActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--        <activity-->
+        <!--            android:name=".activity.PlayerActivity"-->
+        <!--            android:screenOrientation="portrait"-->
+        <!--            android:noHistory="true"-->
+        <!--            android:theme="@style/AppTheme.Launcher">-->
+
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.MAIN" />-->
+
+        <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+        <!--            </intent-filter>-->
+        <!--        </activity>-->
+
+        <activity
+            android:name="com.github.pdfviewer.PDFViewActivity"
+            android:exported="true"
+            android:theme="@style/CustomActivityThemeNoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="application/pdf" />
+                <!-- Optionally add URL scheme and host -->
+<!--                <data android:scheme="http" />-->
+<!--                <data android:scheme="https" />-->
+                <data android:scheme="content" />
+<!--                <data android:scheme="https" />-->
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity.main.HomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".activity.about.ActivityAbout"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <!--        <meta-data-->
+        <!--            android:name="io.fabric.ApiKey"-->
+        <!--            android:value="5f439b79153afb9a4bad61f438658aca3c255d88" />-->
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${packageName}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+</manifest>

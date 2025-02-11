@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_developer_title">Розробник</string>
+    <string name="pref_rate_review_summary">Оцініть додаток і залиште відгук в Google Play</string>
+    <string name="pref_rate_review_title">Поставте оцінку</string>
+    <string name="pref_share_summary">Розкажіть друзям про цей додаток</string>
+    <string name="pref_share_title">Поділіться додатком</string>
+    <string name="pref_version_title">Версія збірки</string>
+</resources>

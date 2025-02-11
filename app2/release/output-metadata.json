@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.walhalla.meccamedina",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 221218,
+      "versionName": "1.4.221218.release",
+      "outputFile": "meccamedina-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

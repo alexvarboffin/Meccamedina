@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <color name="colorAccent">#FF76AC3B</color>-->
+    <!--    <color name="colorPrimary">#ccc000</color>-->
+    <!--    <color name="colorPrimaryDark">#ccc000</color>-->
+
+    <!--#FF4081-->
+    <color name="colorAccent">#00BFA5</color>
+    <!--    <color name="colorPrimary">#651FFF</color>-->
+    <!--    <color name="colorPrimaryDark">#6200EA</color>-->
+
+    <color name="colorPrimary">#004d40</color>
+    <color name="colorPrimaryDark">#013C32</color>
+
+    <color name="colorBackgroundLight">#51C1FE</color>
+    <color name="colorBackgroundDefault">#000000</color>
+
+    <color name="black">#ff000000</color>
+    <color name="album_title">#4c4c4c</color>
+
+
+    <color name="gray">#ff888888</color>
+    <color name="window_background_color">#004d40</color>
+
+    <color name="material_background_color">#ff455a64</color>
+
+    <color name="text_and_icon_color">#ffffffff</color>
+    <color name="primary_text">#ffffffff</color>
+    <color name="secondary_text">#ffffffff</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="adapter_bg_color">#AAffffff</color>
+    <!--    <color name="tasbeeh_background">#6200EA</color>-->
+    <color name="tasbeeh_background">#004d40</color>
+
+
+</resources>

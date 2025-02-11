@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_id" translatable="false">ca-app-pub-5111357348858303~4598649352</string>
+<!--    <string name="b1" translatable="false">ca-app-pub-5111357348858303/8960573831</string>-->
+    <string name="r1" translatable="false">ca-app-pub-5111357348858303/1242636424</string>
+
+<!--    <string name="url_privacy_policy" translatable="false">https://mekka-70cf9.firebaseapp.com/privacy_policy.html</string>-->
+    <string name="url_privacy_policy" translatable="false">https://mekka-70cf9.web.app/privacy_policy.html</string>
+
+
+</resources>

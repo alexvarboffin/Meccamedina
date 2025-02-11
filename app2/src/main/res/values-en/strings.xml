@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mecca and Madina Online</string>
+
+    <string name="share_subject">@string/app_name</string>
+    <string name="share_to">Share</string>
+    <string name="share_message">Download Mecca and Madina 24/7 Online for Android</string>
+    <string name="confirm_action">To watch the broadcast, you must select your Google account. Please confirm the action!</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/material_background_color"
+    android:minHeight="@dimen/item_twoline_height">
+
+    <FrameLayout
+        android:id="@+id/lytThumbnail"
+        android:layout_width="@dimen/thumbnail_width"
+        android:layout_height="@dimen/thumbnail_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/standard_margin">
+
+        <ImageView
+            android:id="@+id/imgThumbnail"
+            android:layout_width="@dimen/thumbnail_width"
+            android:layout_height="@dimen/thumbnail_height"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_thumbnail" />
+
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|end"
+            android:background="@color/colorAccent"
+            android:ellipsize="end"
+            android:padding="@dimen/caption_padding"
+            android:singleLine="true"
+            android:textColor="@color/text_and_icon_color"
+            android:textSize="@dimen/subhead" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/item_padding_with_icon"
+        android:paddingEnd="@dimen/standard_margin">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/title" />
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/txtPublishedAt"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:ellipsize="end"-->
+        <!--            android:singleLine="true"-->
+        <!--            android:textColor="@color/secondary_text"-->
+        <!--            android:textSize="@dimen/subhead" />-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textSize="@dimen/subhead">
+
+            <TextView
+                android:id="@+id/txtPublishedAt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/subhead" />
+
+            <TextView
+                android:id="@+id/poweredbyYouTube"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:text="Powered by YouTube"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/subhead"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_gravity="bottom"
+        android:background="@color/divider_color" />
+</FrameLayout>
