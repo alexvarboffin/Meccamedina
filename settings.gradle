@@ -1,8 +1,0 @@
-include ':app', ':UnderratedTube'
-rootProject.name = "Meccamedina"
-
-include ':ui'
-project(':ui').projectDir = new File('../sdk\\android\\UI\\ui')
-
-include ':android-pdf-viewer'
-project(':android-pdf-viewer').projectDir = new File('F:\\src\\Med\\HealthCalculator\\android-pdf-viewer\\')
